@@ -21,7 +21,7 @@ class PaintUtils {
     for (var i = 0; i < labelPoints.length; i++) {
       textPainter.text = TextSpan(
           text: labels[i],
-          style: TextStyle(color: Colors.black, fontSize: textSize));
+          style: TextStyle(color: Color(0xffACADF9), fontSize: textSize));
       textPainter.maxLines = maxLinesForLabels;
       textPainter.textAlign = TextAlign.center;
 
